@@ -1,5 +1,7 @@
 # Chicago 311 Data Pipeline
 
+[![CI](https://github.com/adityaduggirala/chicago-311-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/adityaduggirala/chicago-311-pipeline/actions/workflows/ci.yml)
+
 An incremental ELT pipeline and analytics dashboard for the City of Chicago's public
 [311 Service Requests](https://data.cityofchicago.org/Service-Requests/311-City-Service-Requests/v6vf-nfxy)
 dataset. It pulls data from the Socrata API, loads it idempotently into DuckDB, models it into a
